@@ -17,10 +17,19 @@ Easy, fast, and cheap LLM serving for everyone
 ---
 
 # vLLM with CUDA 11.7 Support
-**Usage: build from source**
-```bash
-pip install -v -U ./
-```
+**Usage:**
+- **Use pre-built release:**
+  - Check [here](https://github.com/yiwanjuan/vllm-cu117/releases/latest) and download the **wheel** you need
+  - ```bash
+    pip install wheel
+    pip install vllm-*+cu117-*-*-manylinux1_x86_64.whl
+    ```
+- **Build from source:**
+  - ```bash
+    git clone https://github.com/yiwanjuan/vllm-cu117.git
+    cd vllm-cu117/
+    pip install -v -U ./
+    ```
 
 ---
 
