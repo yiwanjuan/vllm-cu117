@@ -3,7 +3,7 @@ psutil
 ray >= 2.5.1
 sentencepiece  # Required for LLaMA tokenizer.
 numpy
-torch == 2.1.2
+torch == 2.0.1
 transformers >= 4.36.0  # Required for Mixtral.
 xformers == 0.0.23.post1  # Required for CUDA 12.1.
 fastapi
